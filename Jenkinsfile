@@ -28,6 +28,6 @@ node('master') {
 						subject: "Job Completed"
 						body: "Jenkins pipeline for Job Maven build is completed",
 						to:"build-alerts@example.com"
-						)
+					)
 		}
 	}
